@@ -1,0 +1,42 @@
+<table width="50%">
+<div id="input">
+	<form>
+	<label>
+		Requester<input class="aligned" type="text" id="requester" name="requester"/><br>
+	</label>
+	<label>
+		Organization<input class="aligned" type="text" id="organization" name="organization"/><br>
+	</label>
+	<label>
+	Assignee<input class="aligned"  type="text" id="assignee" name="assignee"/><br>
+	</label>
+	<label>
+	Subject<input class="aligned" type="text" id="subject" name="subject"/><br>
+	</label>
+	<label>
+	Description<input class="aligned" type="text" id="description" name="description"/><br>
+	</label>
+
+	Create Date:
+		<select name="createop" id="createop">
+		  <option value="<">is less than</option>
+		  <option selected value=">">is greater than</option>
+		  <option value=":">is equal to</option>
+		</select>
+		<input type="date" id="createdate" name="createdate"/><br>
+
+	Status:
+		<select class="aligned"  name="status" id="status">
+		  <option selected value="">All</option>
+		  <option value="Open">New</option>
+		  <option value="Open">Open</option>
+		  <option value="Pending">Pending</option>
+		  <option value="Solved">Solved</option>
+		  <option value="Closed">Closed</option>
+		</select><br>
+
+		<form>
+		<br>
+		 <button type = "button" class="search">Search</button>
+</div>
+</table>

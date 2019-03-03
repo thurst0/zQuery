@@ -1,0 +1,18 @@
+
+<p><b>There are {{count}} search results:</b></p>
+<br />
+
+{{#each results}}
+
+ <ul>
+	  <li><b>ID: </b><a href={{url}}>{{id}}</a></li>
+	  <li><b>Subject: </b>{{subject}}</li>
+	  <li><b>Status: </b>{{status}}</li>
+	  <li><b>Description: </b>{{description}}</li>
+	  <li><b>Date Created: </b>{{created_at}}</li>
+	  <li><b>Date Updated: </b>{{updated_at}}</li>
+ </ul>
+ <br>
+{{/each}}
+
+ <button class="back">Return To Search</button>

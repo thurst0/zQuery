@@ -1,0 +1,32 @@
+#bug_link {
+	fontisze: 80%;
+	padding-top: 10px;
+	}
+	
+.total {
+	text-align: right;
+	font-weight: bold;
+	color: #363;
+}
+
+#input label{
+   /*float: right;
+    display: inline-block;
+	margin-bottom: 3px;
+	margin-right: 2px;*/
+	
+	width: 200px;
+    text-align: left;
+	vertical-align: top;
+}
+
+button {
+	padding-top: 5 px;
+	border: 2px solid #78A300;
+	/*background: #78A300;*/
+	}
+	
+ul {
+	padding: 5px;
+    border: 1px solid green;
+}

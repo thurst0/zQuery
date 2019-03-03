@@ -1,0 +1,13 @@
+{
+  "name": "ZQuery",
+  "author": {
+    "name": "Tony Hurst",
+    "email": "thurst@evs-sw.com",
+    "url": ""
+  },
+  "defaultLocale": "en",
+  "private": true,
+  "location": "ticket_sidebar",
+  "version": "1.0",
+  "frameworkVersion": "1.0"
+}
